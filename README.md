@@ -1,7 +1,3 @@
-# A-head-on-collision-prevention-system
-Inter-vehicle Communication and Alert on Veering Away from Lane
-
-
 # Inter-vehicle Communication and Alert on Veering Away from Lane
 
 A head-on collision prevention system for 2-lane roads (e.g. Route 90).  
