@@ -117,6 +117,7 @@ To find edges in the image
 
 ## Current location pinpointing at any given moment
 
-For full details: https://codeburst.io/how-i-understood-getting-accurate-geolocation-using-python-web-scraping-and-selenium-7967d721587a
+For full details:  
+https://codeburst.io/how-i-understood-getting-accurate-geolocation-using-python-web-scraping-and-selenium-7967d721587a
 
 
