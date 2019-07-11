@@ -19,7 +19,7 @@ Car A send warning messages to the white car on the left side.
 
 ● Current location pinpointing at any given moment.
 
-## client–server
+## Client–server
 The server will wait for client requests, whereby each client represents a vehicle.  
 Once the server receives a request, it will store the created connection in the database and open a new thread to listen to data from that vehicle at any given moment.  
 At any given moment, each vehicle sends:  
