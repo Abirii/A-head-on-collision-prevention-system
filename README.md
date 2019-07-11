@@ -108,7 +108,7 @@ To find edges in the image
    
 ![lane_only](https://user-images.githubusercontent.com/40145410/60889496-ca3c7d00-a261-11e9-8645-0a09b17ef88e.jpg)
 
-#### And now lets look at the left side(.4) and right side(.6) of of the frame:
+#### And now lets look at the left side(.4 of the frame) and right side(.6 of the frame) of of the frame:
  
  ![left_side](https://user-images.githubusercontent.com/40145410/61053404-2506dd80-a3f6-11e9-8941-83c978efc465.PNG)  ![right_side](https://user-images.githubusercontent.com/40145410/61053408-26d0a100-a3f6-11e9-98a9-533e2ea67029.PNG)
  
