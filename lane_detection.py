@@ -35,16 +35,6 @@ def detect_white_and_yellow(image):
     upper = np.uint8([255, 255, 255])
     white_mask = cv.inRange(HSL_image,lower,upper)
     proc.save_to_procedure('white_mask.jpg',white_mask)
-
-    # Yellow mask.
-    #lower = np.uint8([50, 100, 150])
-    #upper = np.uint8([200, 200, 255])
-    #yellow_mask = cv.inRange(HSL_image, lower, upper)
-    #save_to_procedure('yellow.jpg',yellow_mask)
-
-    # Combine white and yellow
-    #or_mask = cv.bitwise_or(white_mask,yellow_mask)
-    #save_to_procedure('bitwise_or.jpg',or_mask)
     mask =  cv.bitwise_and(image,image,mask = white_mask)
     proc.save_to_procedure('bitwise_and.jpg',mask)
 
@@ -95,7 +85,6 @@ def define_points_ROI(image):
 
     points =  np.array([[bottom_left, top_left, top_right, bottom_right]], dtype=np.int32)
     return points
-
 
 
 # Determine the side of the car return True for pass, else False
@@ -152,7 +141,6 @@ def count_lanes(image):
     return counter
 
 
-
 # Get Image from car thread, return True for pass
 def detection(car_input):
         proc.save_to_procedure('Input.jpg',car_input)
@@ -164,6 +152,3 @@ def detection(car_input):
         out_of_lane = determine_side(lane_image)
 
         return out_of_lane
-
-img = cv.imread('Images/Test/highway.jpg')
-detection(img)
